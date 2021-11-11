@@ -9,13 +9,6 @@ import java.util.Random;
  * Purpose: Concurrency
  */
 
-/*
- * Implement a parallel array sum, and compare performance with single thread sum.
- * DONE: Make an array of 200 million random numbers between 1 and 10.
- * DONE: Compute the sum in parallel using multiple threads.
- * DONE: Then compute the sum with only one thread, and display the sum and times for both cases.
- */
-
 public class MultiThread {
 	private static int randNum = 0;
 	private static int sum = 0;
